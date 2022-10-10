@@ -1,7 +1,9 @@
 import unittest
 
 from sudoku_class import Sudoku
-from sudoku_exceptions import *
+from sudoku_exceptions import SameNumberInRow
+from sudoku_exceptions import SameNumberInColumn
+from sudoku_exceptions import SameNumberInRegion
 
 
 class TestSudoku(unittest.TestCase):
